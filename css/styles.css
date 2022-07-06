@@ -18,12 +18,15 @@
 body {
     font-family: var(--main-font);
     color: var(--grey-text-cl);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
 }
 
-.link,
-.link-header,
-.link-header-contacts {
+.link {
     text-decoration: none;
+    color: currentColor;
 }
 
 .list {
@@ -32,7 +35,6 @@ body {
 .logo {
     color: var(--accent-cl);
     font-family: var(--secondary-font);
-    font-style: normal;
     font-weight: 700;
     line-height: 1.19;
     font-size: 26px;
@@ -47,54 +49,40 @@ body {
     color: var(--white-text-cl);
 }
 
-.link-header:hover,
-.link-header:focus,
-.link-header-contacts:hover,
-.link-header-contacts:focus {
-    color: var(--accent-cl);
+.header {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
-.text-nav {
+.nav-list {
     color: var(--black-text-cl);
 }
 
-.link-header,
-.link-header-contacts {
-    font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-}
-
-.link-header-contacts {
-    color: var(--grey-text-cl);
-}
-
+.link-header:hover,
+.link-header:focus,
+.link-header-contacts:hover,
+.link-header-contacts:focus,
 .current-page {
-    color: var(--accent-cl);
+        color: var(--accent-cl);
 }
 
-.header-section {
-    background-color: var(--white-bg-cl);
-}
-
-.hero-section,
-.footer-section {
-    background-color: var(--black-bg-cl);
+ .hero,
+ .footer {
+         background-color: var(--black-bg-cl);
 }
 
 .hero-title {
-    font-style: normal;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
         letter-spacing: 0.06em;
+        text-transform: uppercase;
         color: var(--white-text-cl);
 }
 
 .hero-btn {
-        font-style: normal;
+        font-family: inherit;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -106,29 +94,22 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #188CE8;
+         background-color: #188CE8;
 }
 
 .title {
-    color: var(--black-text-cl);
+        color: var(--black-text-cl);
 }
 
 .about-title {
-    font-style: normal;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
-.about-text {
-    font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-}
-
-.title-second {
-    font-style: normal;
+.section-title {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
@@ -136,7 +117,6 @@ body {
 }
 
 .team-title {
-    font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
@@ -144,35 +124,26 @@ body {
 }
 
 .team-text {
-    font-size: 16px;
+        font-size: 16px;
         line-height: 1.19;
         letter-spacing: 0.03em;
 }
 
-.team-section {
-    background-color: var(--grey-bg-cl);
+.team {
+         background-color: var(--grey-bg-cl);
 }
 
 .footer-contacts {
-    font-family: var(--main-font);
         font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
 }
 
-.link-footer-item {
-    color: var(--white-text-cl);
-}
-
-.link-footer-items {
-    color: rgba(255, 255, 255, 0.6);
+.link-location {
+         color: var(--white-text-cl);
 }
 
 .portfolio-btn {
-    font-family: var(--main-font);
-    font-style: normal;
+        font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
@@ -190,7 +161,6 @@ background-color: var(--accent-cl);
 }
 
 .portfolio-title {
-    font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -199,8 +169,6 @@ background-color: var(--accent-cl);
 }
 
 .portfolio-text {
-    font-size: 16px;
+        font-size: 16px;
         line-height: 1.88;
-        letter-spacing: 0.03em;
-        color: #757575;
 }
